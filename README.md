@@ -5,13 +5,12 @@
 ---
 
 > [!NOTE]
-> **汉化与定制声明**：
-> 本项目为 [NothingIsLost/obsidian-hover-editor](https://github.com/nothingislost/obsidian-hover-editor) 插件的中文汉化与定制版本。
+> **汉化声明**：
+> 本项目为 [NothingIsLost/obsidian-hover-editor](https://github.com/nothingislost/obsidian-hover-editor) 插件的中文汉化版本。
+>
 > - **原项目地址**：[nothingislost/obsidian-hover-editor](https://github.com/nothingislost/obsidian-hover-editor)
 > - **主要修改内容**：
 >   - 完整汉化了插件的设置面板、右键上下文菜单、快捷指令面板（Command Palette）及窗口工具栏提示。
->   - 新增了重命名弹窗中的“取消添加（删除文件）”按钮（支持在设置中开启或关闭）。
->   - 修复并优化了“取消添加”时编辑器中遗留图片前缀感叹号 `!` 的问题。
 
 ---
 
@@ -52,6 +51,7 @@ https://user-images.githubusercontent.com/89109712/160023366-7a1ca044-5725-4d30-
 ### 通过 BRAT 插件安装
 
 如果你想参与早期测试，可以使用 BRAT 插件进行安装：
+
 - 在 Obsidian 插件浏览器中安装 BRAT 插件，然后添加测试版仓库 `"nothingislost/obsidian-hover-editor"`。
 
 ### 手动安装插件
