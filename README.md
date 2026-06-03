@@ -1,11 +1,19 @@
 # Obsidian 悬浮编辑器 (Hover Editor)
 
-[🇨🇳 中文说明](#-中文说明) | [🇺🇸 English Description](#-english-description)
+[English](README_en.md) | **中文**
 
 ---
 
-<details open>
-<summary><b>🇨🇳 中文说明 (点击收起/展开)</b></summary>
+> [!NOTE]
+> **汉化与定制声明**：
+> 本项目为 [NothingIsLost/obsidian-hover-editor](https://github.com/nothingislost/obsidian-hover-editor) 插件的中文汉化与定制版本。
+> - **原项目地址**：[nothingislost/obsidian-hover-editor](https://github.com/nothingislost/obsidian-hover-editor)
+> - **主要修改内容**：
+>   - 完整汉化了插件的设置面板、右键上下文菜单、快捷指令面板（Command Palette）及窗口工具栏提示。
+>   - 新增了重命名弹窗中的“取消添加（删除文件）”按钮（支持在设置中开启或关闭）。
+>   - 修复并优化了“取消添加”时编辑器中遗留图片前缀感叹号 `!` 的问题。
+
+---
 
 此插件增强了 Obsidian 核心的“页面预览 (Page Preview)”插件，将悬浮预览窗口转换为了一个功能完备的编辑器实例。
 
@@ -55,61 +63,3 @@ https://user-images.githubusercontent.com/89109712/160023366-7a1ca044-5725-4d30-
 - 感谢 **pjeby** 贡献了大量核心功能，使得悬浮编辑器能够与 Obsidian 原生组件完美协同工作。
 - 感谢 **boninall** 贡献了“在新悬浮窗中打开”的功能。
 - 感谢 **murf**、**liam**、**obadiahcruz** 和 **javalent** 的早期测试与反馈。
-
-</details>
-
----
-
-<details>
-<summary><b>🇺🇸 English Description (Click to expand/collapse)</b></summary>
-
-This plugin enhances the core "Page Preview" plugin by turning the hover popover into a full featured editor instance.
-
-### Disclaimer
-
-This plugin leverages Obsidian functionality that is not currently exposed in the official API. As a result, future Obsidian updates may introduce breaking changes.
-
-I will attempt to keep this plugin working across Obsidian updates but my goal is to either have this functionality implemented directly into Obsidian core or switch over to using the official API for popovers, once it is made available.
-
-### Features
-
-- **The page preview popover is now an actual editor instance**
-  - Most editor functionality is supported including switching between modes.
-- **The popover is now draggable and resizable**
-- **The popover can now be pinned to prevent it from auto closing**
-  - Popovers will auto pin when dragged or resized.
-  - With pinning, multiple popovers can be open at the same time.
-- **When opening a popover, it will become the active pane and receive focus**
-  - This means you can use keyboard shortcuts like `ctrl+e` to switch modes after triggering a popover.
-  - When the popover closes, focus will revert back to the previous document.
-- **The popover now has a nav bar which includes the document title and editor controls**
-- **The top drag handle can be double clicked to minimize the popover**
-- **There is a plugin setting that allows for setting the default editor mode**
-  - Options are: "Open in Reading mode", "Open in Editing mode", or "Match the mode of the current document".
-- **When hovering a link containing header or block ref, the editor will open and auto scroll to the ref location**
-- **When multiple popovers are active and on top of each other, the currently active popover will remain on top**
-
-### Demo
-
-https://user-images.githubusercontent.com/89109712/160023366-7a1ca044-5725-4d30-a0a7-f7e0664281da.mp4
-
-### Installing
-
-Hover Editor can be found and installed via the Obsidian Community Plugins browser.
-
-### Installing via BRAT
-
-If you want to participate in early testing you can install the plugin using BRAT:
-- Install the BRAT plugin via the Obsidian Plugin Browser and then add the beta repository "nothingislost/obsidian-hover-editor".
-
-### Manually installing the plugin
-
-- Copy over `main.js`, `manifest.json`, and `styles.css` to your vault `VaultFolder/.obsidian/plugins/obsidian-hover-editor/`.
-
-### Acknowledgments
-
-- Thanks to **pjeby** for contributing a ton of core functionality related to making Hover Editors interop properly with native Obsidian components.
-- Thanks to **boninall** for contributing the "open in new popover" functionality.
-- Thanks to **murf**, **liam**, **obadiahcruz**, and **javalent** for the early testing and feedback.
-
-</details>
