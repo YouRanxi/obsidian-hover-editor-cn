@@ -1,9 +1,9 @@
 {
   "id": "obsidian-hover-editor",
-  "name": "Hover Editor",
+  "name": "悬浮编辑器 (Hover Editor)",
   "version": "0.11.29",
   "minAppVersion": "1.10.6",
-  "description": "Transform the Page Preview hover popover into a floating tab",
+  "description": "将页面预览悬浮窗转换为可拖动的浮动标签页",
   "author": "NothingIsLost",
   "authorUrl": "https://github.com/nothingislost",
   "isDesktopOnly": false
