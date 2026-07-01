@@ -6,11 +6,6 @@
 
 This plugin enhances the core "Page Preview" plugin by turning the hover popover into a full featured editor instance.
 
-### Disclaimer
-
-This plugin leverages Obsidian functionality that is not currently exposed in the official API. As a result, future Obsidian updates may introduce breaking changes.
-
-I will attempt to keep this plugin working across Obsidian updates but my goal is to either have this functionality implemented directly into Obsidian core or switch over to using the official API for popovers, once it is made available.
 
 ### Features
 
